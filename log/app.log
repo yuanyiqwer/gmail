@@ -1,0 +1,42 @@
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+222222222222222222222222
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+No MyBatis mapper was found in '[com.yy]' package. Please check your configuration.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8004 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8004 or configure this application to listen on another port.
+
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+No MyBatis mapper was found in '[com.yy]' package. Please check your configuration.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8004 is already in use
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8004 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8004 or configure this application to listen on another port.
+
