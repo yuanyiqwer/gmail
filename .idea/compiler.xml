@@ -10,9 +10,5 @@
         <module name="gmail-logger" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gamil" target="8" />
-      <module name="gmail-logger" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
