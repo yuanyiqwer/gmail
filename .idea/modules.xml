@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gamil.iml" filepath="$PROJECT_DIR$/gamil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmail-logger/gmail-logger.iml" filepath="$PROJECT_DIR$/gmail-logger/gmail-logger.iml" />
+    </modules>
+  </component>
+</project>

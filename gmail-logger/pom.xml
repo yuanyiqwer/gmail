@@ -6,7 +6,9 @@
         <artifactId>gamil</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
+
         <relativePath>../pom.xml</relativePath>
+
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -45,7 +47,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -53,6 +54,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -62,4 +64,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
