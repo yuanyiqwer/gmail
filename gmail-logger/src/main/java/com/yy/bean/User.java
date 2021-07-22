@@ -27,4 +27,5 @@ public class User {
     @TableField(exist = false)
     private String email;
 
+
 }
