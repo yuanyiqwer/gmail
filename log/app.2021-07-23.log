@@ -1,0 +1,798 @@
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 4760 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2481 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.591 seconds (JVM running for 11.447)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+222222222222222222222222
+222222222222222222222222
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 16936 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2205 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.072 seconds (JVM running for 9.889)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 17008 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 12 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2099 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.864 seconds (JVM running for 10.564)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 5196 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 10 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2153 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.379 seconds (JVM running for 10.135)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+222222222222222222222222
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 9784 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 6 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2068 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.839 seconds (JVM running for 9.486)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+222222222222222222222222
+222222222222222222222222
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 10400 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 8 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2089 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.018 seconds (JVM running for 10.722)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+222222222222222222222222
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 11136 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 8 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2089 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.774 seconds (JVM running for 9.449)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 17688 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 7 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1945 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.511 seconds (JVM running for 10.801)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 11136 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 8 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2063 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.77 seconds (JVM running for 9.462)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 11244 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2055 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.77 seconds (JVM running for 9.426)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 20932 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2066 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.796 seconds (JVM running for 9.476)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 21108 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2118 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.937 seconds (JVM running for 9.738)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 2332 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2156 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.073 seconds (JVM running for 9.869)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 19404 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 8 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2045 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 7.647 seconds (JVM running for 9.38)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 9788 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2067 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.666 seconds (JVM running for 10.371)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 16776 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2191 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.274 seconds (JVM running for 11.089)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 7284 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 13 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2263 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.824 seconds (JVM running for 10.854)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 17972 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 16 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2292 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.514 seconds (JVM running for 10.552)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 0 ms
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 15924 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 18 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2394 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.735 seconds (JVM running for 10.746)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 3496 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 7 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2246 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.533 seconds (JVM running for 11.535)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 12308 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2337 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.518 seconds (JVM running for 10.47)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 20000 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 18 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2268 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.448 seconds (JVM running for 11.383)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 14604 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 13 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2282 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.67 seconds (JVM running for 10.667)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 13444 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2309 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 8.764 seconds (JVM running for 10.809)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 22408 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 11 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2339 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.721 seconds (JVM running for 11.618)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 22360 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 6 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2345 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.757 seconds (JVM running for 11.868)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 5664 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 6 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2328 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Tomcat started on port(s): 8005 (http) with context path ''
+Started App in 9.573 seconds (JVM running for 11.642)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms

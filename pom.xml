@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>gmail-logger</module>
+        <module>flink_gmail</module>
     </modules>
 
     <properties>
@@ -17,6 +18,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <spring.version>2.5.0</spring.version>
         <mybatis.version>3.4.3</mybatis.version>
+        <flink.version>1.13.0</flink.version>
     </properties>
 
     <dependencyManagement>
@@ -57,8 +59,6 @@
                 <artifactId>fastjson</artifactId>
                 <version>1.2.75</version>
             </dependency>
-
-
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -68,76 +68,86 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.20</version>
-                 
             </dependency>
-
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>3.4.1</version>
             </dependency>
-
             <dependency>
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity-engine-core</artifactId>
                 <version>2.3</version>
             </dependency>
             <!-- Either... -->
+<!--            csv文件格式-->
+            <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-csv -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-csv</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-json</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <!-- table配置-->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-parquet_2.11</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-table-api-java-bridge_2.11</artifactId>
-                <version>1.13.0</version>
-                 
+                <version>${flink.version}</version>
             </dependency>
             <!-- or... -->
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-table-api-scala-bridge_2.11</artifactId>
-                <version>1.13.0</version>
-                 
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-table-planner-blink_2.11</artifactId>
-                <version>1.13.0</version>
-                 
+                <version>${flink.version}</version>
             </dependency>
-
+            <!--flink自定义工具包-->
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-table-common</artifactId>
-                <version>1.13.0</version>
-                 
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-java</artifactId>
-                <version>1.13.1</version>
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-scala_2.11</artifactId>
-                <version>1.13.1</version>
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-streaming-java_2.11</artifactId>
-                <version>1.13.1</version>
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-streaming-scala_2.11</artifactId>
-                <version>1.13.0</version>
-
+                <version>${flink.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-clients_2.11</artifactId>
-                <version>1.13.1</version>
+                <version>${flink.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 
 </project>

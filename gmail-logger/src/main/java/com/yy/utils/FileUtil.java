@@ -7,4 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @NoArgsConstructor
 public class FileUtil {
+    static {
+        System.out.println("FileUtil");
+    }
 }

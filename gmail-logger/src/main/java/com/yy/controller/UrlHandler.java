@@ -16,9 +16,13 @@ import java.util.List;
 @Slf4j
 public class UrlHandler {
 
+    static  {
+        System.out.println("UrlHandler...........");
+    }
 
     @Autowired(required = false)
     FileUtil util;
+
 
     @Autowired(required = false)
     UserMapper user;
@@ -26,13 +30,14 @@ public class UrlHandler {
     DataSource source;
     @GetMapping("/hello")
     public String backMessage() {
-        boolean b = util == null;
-        System.out.println(source);
-        log.warn("222222222222222222222222");
-        final List<User> lst = user.selectList(null);
-        lst.stream().forEach(rs -> {
-            System.out.println(rs.toString());
-        });
+//        boolean b = util == null;
+//        System.out.println(source);
+//        log.warn("222222222222222222222222");
+//        final List<User> lst = user.selectList(null);
+//        lst.stream().forEach(rs -> {
+//            System.out.println(rs.toString());
+//        });
+
         return "122";
     }
 
