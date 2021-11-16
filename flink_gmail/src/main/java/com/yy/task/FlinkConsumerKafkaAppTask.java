@@ -80,7 +80,7 @@ public class FlinkConsumerKafkaAppTask implements Task {
                     .enableExternalizedCheckpoints(
                             ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
             env.getCheckpointConfig().setMaxConcurrentCheckpoints(1);
-            // 设置默认忍受失败的checkpoint数量
+            // 设置默认忍受失败的checkpoint数量,init=0
             env.getCheckpointConfig().setTolerableCheckpointFailureNumber(10);
             env.getCheckpointConfig().setCheckpointTimeout(60 * 1000);
             // TODO: 2021/11/16 如果没有配置checkpoints目录，则使用全局配置
