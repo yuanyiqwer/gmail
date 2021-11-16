@@ -1,0 +1,18 @@
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 17864 (D:\IdeaProject\gmail\flink_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.398 seconds (JVM running for 3.305)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+hello flink
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 2352 (D:\IdeaProject\gmail\flink_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.185 seconds (JVM running for 3.026)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+hello flink
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 9020 (D:\IdeaProject\gmail\flink_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.425 seconds (JVM running for 3.232)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+hello flink

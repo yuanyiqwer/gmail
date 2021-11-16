@@ -2,11 +2,8 @@ package com.yy.source
 
 import com.yy.bean.Person
 import com.yy.utils.DateUtil
-import org.apache.commons.lang3.StringUtils
 import org.apache.flink.streaming.api.functions.source.SourceFunction
-import org.apache.flink.table.api.Expressions.{$, lit}
 import org.apache.flink.table.api.{DataTypes, Schema}
-
 import java.time.Instant
 import java.util.UUID
 
@@ -23,7 +20,7 @@ class MySource extends SourceFunction[Person] {
 
   override def run(ctx: SourceFunction.SourceContext[Person]): Unit = {
     while (Interrupt) {
-      val str: String = UUID.randomUUID().toString
+      val str: java.lang.String = UUID.randomUUID().toString
 
       ctx.collect(new Person(str, str.substring(2, 7), Math.random().intValue(), Instant.ofEpochMilli(DateUtil.getRandomDatetime)))
     }
@@ -80,9 +77,6 @@ object MySource {
       |""".stripMargin
 
   def main(args: Array[String]): Unit = {
-    //    println( DateUtil.getRandomDatetime)
-    //    println(StringUtils.reverse("00000000000000002967e40161287241".substring(16).toUpperCase) + "0000000000000000")
-    println(getSqlSchema("csv", "/F:\\Desktop\\data.csv"))
 
   }
 

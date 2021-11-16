@@ -1,7 +1,7 @@
 package com.yy.sink
 
 /**
- * @ClassName KafkaSink
+ * @ClassName MockSource
  * @Author yy
  * @Description $description
  * @Date 2021/8/30 16:10 

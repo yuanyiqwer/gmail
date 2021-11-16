@@ -1,184 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <artifactId>gamil</artifactId>
-        <groupId>org.example</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-
-    <artifactId>flink_gmail</artifactId>
+  <parent>
+    <artifactId>gamil</artifactId>
+    <groupId>org.example</groupId>
     <version>1.0-SNAPSHOT</version>
+  </parent>
 
-    <name>flink_gmail</name>
+  <artifactId>flink_gmail</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>flink_gmail</name>
 
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 
-    <dependencies>
-<!--         table配置-->
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-api-java-bridge_2.11</artifactId>
-        </dependency>
-        <!-- or... -->
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-api-scala-bridge_2.11</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-planner-blink_2.11</artifactId>
-        </dependency>
-        <!--flink自定义工具包-->
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-common</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-scala_2.11</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-java_2.11</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-scala_2.11</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-clients_2.11</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-csv</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-json</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-parquet_2.11</artifactId>
-        </dependency>
-    </dependencies>
+  <dependencies>
+    <!--         table配置-->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-java-bridge_2.12</artifactId>
+    </dependency>
+    <!-- or... -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-api-scala-bridge_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-planner-blink_2.12</artifactId>
+    </dependency>
+    <!--flink自定义工具包-->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-common</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-java</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-scala_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-streaming-java_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-streaming-scala_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-clients_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-csv</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-json</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-parquet_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.ververica</groupId>
+      <artifactId>flink-connector-mysql-cdc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-jdbc_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ru.yandex.clickhouse</groupId>
+      <artifactId>clickhouse-jdbc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-kafka_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-runtime-web -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-runtime-web_2.12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.kafka</groupId>
+      <artifactId>kafka-clients</artifactId>
+      <version>2.2.0</version>
+    </dependency>
 
-    <build>
-        <plugins>
-            <!-- 该插件用于将Scala代码编译成class文件 -->
-            <plugin>
-                <groupId>net.alchim31.maven</groupId>
-                <artifactId>scala-maven-plugin</artifactId>
-                <version>3.4.6</version>
-                <executions>
-                    <execution>
-                        <!-- 声明绑定到maven的compile阶段 -->
-                        <goals>
-                            <goal>compile</goal>
-                            <goal>testCompile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <!-- 下面这个plugin负责指定入口,最终打包-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix><!--指定classpath的前缀-->
-                            <mainClass>com.yy.com.yy.env.TVFEnv</mainClass><!--指定主类的类名-->
-                        </manifest>
-                        <!-- 指定配置文件的新目录-->
-                        <manifestEntries>
-                            <Class-Path>conf/</Class-Path>
-                        </manifestEntries>
-                    </archive>
-                    <excludes>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+    </dependency>
 
-                        <!--以target/classes为根目录-->
-                        <!--资源文件排除-->
-                        <exclude>**/*.xml</exclude>
-                        <exclude>**/*.properties</exclude>
-                        <exclude>**/*.sh</exclude>
-                        <exclude>**/*.yml</exclude>
-                        <!--html页面排除-->
-                        <!--                        <exclude>templates/*.*</exclude>-->
-                        <!--静态文件排除-->
-                        <!--                        <exclude>static/*.*</exclude>-->
-                        <exclude>mapper</exclude>
-                        -
-                    </excludes>
-                </configuration>
-            </plugin>
-            <!-- 这个plugin负责jar包中指定资源和依赖包的路径，并从Springboot jar包中排除原有资源-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>copy-dependencies</id>
-                        <phase>prepare-package</phase>
-                        <goals>
-                            <goal>copy-dependencies</goal>
-                        </goals>
-                        <configuration>
-                            <!--指定outputDirectory-->
-                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                            <!--
-                                <outputDirectory>${project.build.directory}/classes/lib</outputDirectory>
-                                Alternatively use ${project.build.directory}/classes/lib as OutputDirectory to integrate all jar-files into the main jar, but then you will need to add custom classloading code to load the jars.
-                                -->
-                            <overWriteReleases>false</overWriteReleases>
-                            <overWriteSnapshots>false</overWriteSnapshots>
-                            <overWriteIfNewer>true</overWriteIfNewer>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <!-- 拷贝资源文件 到指定的resource目录-->
-            <plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>copy-dependencies</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <!-- 资源文件输出目录 -->
-                            <outputDirectory>${project.build.directory}/conf</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>src/main/resources</directory>
-                                    <filtering>true</filtering>
-                                    <!--包含的文件-->
-                                    <includes>
-                                        <include>*/**</include>
-                                    </includes>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-statebackend-rocksdb_2.12</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.gitee.ForteScarlet</groupId>
+      <artifactId>mock.java</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- 该插件用于将Scala代码编译成class文件 -->
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.4.6</version>
+        <executions>
+          <execution>
+            <!-- 声明绑定到maven的compile阶段 -->
+            <goals>
+              <goal>compile</goal>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <!--将依赖打包在一起-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+      <!--            &lt;!&ndash; 下面这个plugin负责指定入口,最终打包&ndash;&gt;-->
+      <!--            <plugin>-->
+      <!--                <groupId>org.apache.maven.plugins</groupId>-->
+      <!--                <artifactId>maven-jar-plugin</artifactId>-->
+      <!--                <configuration>-->
+      <!--                    <archive>-->
+      <!--                        <manifest>-->
+      <!--                            <addClasspath>true</addClasspath>-->
+      <!--                            <classpathPrefix>lib/</classpathPrefix>&lt;!&ndash;指定classpath的前缀&ndash;&gt;-->
+      <!--                            <mainClass>com.yy.com.yy.env.TVFEnv</mainClass>&lt;!&ndash;指定主类的类名&ndash;&gt;-->
+      <!--                        </manifest>-->
+      <!--                        &lt;!&ndash; 指定配置文件的新目录&ndash;&gt;-->
+      <!--                        <manifestEntries>-->
+      <!--                            <Class-Path>conf/</Class-Path>-->
+      <!--                        </manifestEntries>-->
+      <!--                    </archive>-->
+      <!--                    <excludes>-->
+
+      <!--                        &lt;!&ndash;以target/classes为根目录&ndash;&gt;-->
+      <!--                        &lt;!&ndash;资源文件排除&ndash;&gt;-->
+      <!--                        <exclude>**/*.xml</exclude>-->
+      <!--                        <exclude>**/*.properties</exclude>-->
+      <!--                        <exclude>**/*.sh</exclude>-->
+      <!--                        <exclude>**/*.yml</exclude>-->
+      <!--                        &lt;!&ndash;html页面排除&ndash;&gt;-->
+      <!--                        &lt;!&ndash;                        <exclude>templates/*.*</exclude>&ndash;&gt;-->
+      <!--                        &lt;!&ndash;静态文件排除&ndash;&gt;-->
+      <!--                        &lt;!&ndash;                        <exclude>static/*.*</exclude>&ndash;&gt;-->
+      <!--                        <exclude>mapper</exclude>-->
+      <!--                        - -->
+      <!--                    </excludes>-->
+      <!--                </configuration>-->
+      <!--            </plugin>-->
+      <!--            &lt;!&ndash; 这个plugin负责jar包中指定资源和依赖包的路径，并从Springboot jar包中排除原有资源&ndash;&gt;-->
+      <!--            <plugin>-->
+      <!--                <groupId>org.apache.maven.plugins</groupId>-->
+      <!--                <artifactId>maven-dependency-plugin</artifactId>-->
+      <!--                <executions>-->
+      <!--                    <execution>-->
+      <!--                        <id>copy-dependencies</id>-->
+      <!--                        <phase>prepare-package</phase>-->
+      <!--                        <goals>-->
+      <!--                            <goal>copy-dependencies</goal>-->
+      <!--                        </goals>-->
+      <!--                        <configuration>-->
+      <!--                            &lt;!&ndash;指定outputDirectory&ndash;&gt;-->
+      <!--                            <outputDirectory>${project.build.directory}/lib</outputDirectory>-->
+      <!--                            &lt;!&ndash;-->
+      <!--                                <outputDirectory>${project.build.directory}/classes/lib</outputDirectory>-->
+      <!--                                Alternatively use ${project.build.directory}/classes/lib as OutputDirectory to integrate all jar-files into the main jar, but then you will need to add custom classloading code to load the jars.-->
+      <!--                                &ndash;&gt;-->
+      <!--                            <overWriteReleases>false</overWriteReleases>-->
+      <!--                            <overWriteSnapshots>false</overWriteSnapshots>-->
+      <!--                            <overWriteIfNewer>true</overWriteIfNewer>-->
+      <!--                        </configuration>-->
+      <!--                    </execution>-->
+      <!--                </executions>-->
+      <!--            </plugin>-->
+      <!--            &lt;!&ndash; 拷贝资源文件 到指定的resource目录&ndash;&gt;-->
+      <!--            <plugin>-->
+      <!--                <artifactId>maven-resources-plugin</artifactId>-->
+      <!--                <executions>-->
+      <!--                    <execution>-->
+      <!--                        <id>copy-dependencies</id>-->
+      <!--                        <phase>package</phase>-->
+      <!--                        <goals>-->
+      <!--                            <goal>copy-resources</goal>-->
+      <!--                        </goals>-->
+      <!--                        <configuration>-->
+      <!--                            &lt;!&ndash; 资源文件输出目录 &ndash;&gt;-->
+      <!--                            <outputDirectory>${project.build.directory}/conf</outputDirectory>-->
+      <!--                            <resources>-->
+      <!--                                <resource>-->
+      <!--                                    <directory>src/main/resources</directory>-->
+      <!--                                    <filtering>true</filtering>-->
+      <!--                                    &lt;!&ndash;包含的文件&ndash;&gt;-->
+      <!--                                    <includes>-->
+      <!--                                        <include>*/**</include>-->
+      <!--                                    </includes>-->
+      <!--                                </resource>-->
+      <!--                            </resources>-->
+      <!--                        </configuration>-->
+      <!--                    </execution>-->
+      <!--                </executions>-->
+      <!--            </plugin>-->
+    </plugins>
+  </build>
 
 </project>

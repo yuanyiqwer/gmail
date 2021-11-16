@@ -9,4 +9,20 @@ package com.yy.source
  * */
 object FsSourece {
 
+  def readFsByJson(tb:String,path: String,format: String):String=
+    s"""
+      |create table ${tb}(
+      |id STRING,
+      |name STRING,
+      |age INT,
+      |ts  BIGINT,
+      |wk as TO_TIMESTAMP_LTZ(ts,3),
+      |WATERMARK FOR wk AS wk - INTERVAL '10' SECOND
+      |)WITH(
+      |'connector'='filesystem',
+      |'path'='${path}',
+      |'format'='${format}'
+      |)
+      |""".stripMargin
+
 }

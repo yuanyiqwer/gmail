@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flink_gmail" />
         <module name="gmail-logger" />
+        <module name="spark_gmail" />
       </profile>
     </annotationProcessing>
   </component>

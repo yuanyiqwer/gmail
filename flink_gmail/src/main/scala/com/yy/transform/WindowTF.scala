@@ -2,7 +2,8 @@ package com.yy.transform
 
 import com.yy.bean.Person
 import com.yy.env.TVFEnv.envSet
-import com.yy.source.MySource
+import com.yy.sink.JdcbSink
+import com.yy.source.{FsSourece, MySource}
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment, createTypeInformation}
 import org.apache.flink.table.api.FieldExpression
 import org.apache.flink.table.api.bridge.scala.StreamTableEnvironment
@@ -76,10 +77,28 @@ object WindowTF {
 
   }
 
+  def FsToClickHouse: Unit = {
+    val envs: (StreamTableEnvironment, StreamExecutionEnvironment) = envSet
+    val tabEnv: StreamTableEnvironment = envs._1
+    val env: StreamExecutionEnvironment = envs._2
+    import tabEnv.executeSql
+
+    executeSql(FsSourece.readFsByJson("fsJson", "F:\\Desktop\\data2.json", "json"))
+    executeSql(JdcbSink.getSinkToClickHouse)
+    executeSql("desc fsJson").print
+    executeSql("desc sinkCH").print
+//    executeSql(
+//      """
+//        |select *  from fsJson
+//        |""".stripMargin).print
+    executeSql(
+      """
+        select *  from  sinkCH
+        |""".stripMargin).print
+  }
+
   def main(args: Array[String]): Unit = {
-    //打印自定义数据源
-    //execCustomSource
-    FsSql("/F:\\Desktop\\data.csv", "csv");
+    FsToClickHouse
   }
 
 }

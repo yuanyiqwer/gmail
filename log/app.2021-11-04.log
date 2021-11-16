@@ -1,0 +1,124 @@
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 20436 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 17 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8005 (http)
+Initializing ProtocolHandler ["http-nio-8005"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2257 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8005"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8005 is already in use
+{dataSource-1} closing ...
+{dataSource-1} closed
+Pausing ProtocolHandler ["http-nio-8005"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8005"]
+Destroying ProtocolHandler ["http-nio-8005"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8005 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8005 or configure this application to listen on another port.
+
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 14636 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 15 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 8006 (http)
+Initializing ProtocolHandler ["http-nio-8006"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2193 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-8006"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8006 is already in use
+{dataSource-1} closing ...
+{dataSource-1} closed
+Pausing ProtocolHandler ["http-nio-8006"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8006"]
+Destroying ProtocolHandler ["http-nio-8006"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8006 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8006 or configure this application to listen on another port.
+
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 14488 (D:\IdeaProject\gmail\gmail-logger\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 20 ms. Found 0 Elasticsearch repository interfaces.
+Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+Tomcat initialized with port(s): 18006 (http)
+Initializing ProtocolHandler ["http-nio-18006"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2363 ms
+Init DruidDataSource
+{dataSource-1} inited
+Version Spring Data Elasticsearch: 4.2.1
+Version Elasticsearch Client in build: 7.12.1
+Version Elasticsearch Client used: 7.12.1
+Starting ProtocolHandler ["http-nio-18006"]
+Tomcat started on port(s): 18006 (http) with context path ''
+Started App in 9.553 seconds (JVM running for 11.503)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

@@ -1,0 +1,211 @@
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 3416 (D:\IdeaProject\gmail\flink_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.218 seconds (JVM running for 2.895)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+hello flink
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 1480 (D:\IdeaProject\gmail\flink_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.298 seconds (JVM running for 3.037)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+hello flink
+class org.apache.flink.streaming.api.functions.source.TimestampedFileInputSplit does not contain a setter for field modificationTime
+Class class org.apache.flink.streaming.api.functions.source.TimestampedFileInputSplit cannot be used as a POJO type because not all fields are valid POJO fields, and must be processed as GenericType. Please read the Flink documentation on "Data Types & Serialization" for details of the effect on performance.
+The configuration option taskmanager.cpu.cores required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.task.heap.size required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.task.off-heap.size required for local execution is not set, setting it to the maximal possible value.
+The configuration option taskmanager.memory.network.min required for local execution is not set, setting it to its default value 64 mb.
+The configuration option taskmanager.memory.network.max required for local execution is not set, setting it to its default value 64 mb.
+The configuration option taskmanager.memory.managed.size required for local execution is not set, setting it to its default value 128 mb.
+Starting Flink Mini Cluster
+Starting Metrics Registry
+No metrics reporter configured, no metrics will be exposed/reported.
+Starting RPC Service(s)
+Trying to start local actor system
+Slf4jLogger started
+Actor system started at akka://flink
+Trying to start local actor system
+Slf4jLogger started
+Actor system started at akka://flink-metrics
+Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService .
+Starting high-availability services
+Created BLOB server storage directory C:\Users\MACHEN~1\AppData\Local\Temp\blobStore-5d3d514c-f7d0-47ba-bd16-6eae2b44fce8
+Started BLOB server at 0.0.0.0:5071 - max concurrent requests: 50 - max backlog: 1000
+Created BLOB cache storage directory C:\Users\MACHEN~1\AppData\Local\Temp\blobStore-64e9e39a-3f5c-48ff-95bd-8060ee4c2b35
+Created BLOB cache storage directory C:\Users\MACHEN~1\AppData\Local\Temp\blobStore-9a815fe3-129f-4b1b-9bdb-06b09822a499
+Starting 1 TaskManger(s)
+Starting TaskManager with ResourceID: a47574d8-ca87-4e81-9ec6-a17a90175f44
+Temporary file directory 'C:\Users\MACHEN~1\AppData\Local\Temp': total 119 GB, usable 33 GB (27.73% usable)
+FileChannelManager uses directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-io-a4901cbd-dd17-4fd1-88f1-2b14c5d1639e for spill files.
+FileChannelManager uses directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-netty-shuffle-42dd9f4b-80a3-4abe-8f32-a3f00dccedd7 for spill files.
+Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+Starting the network environment and its components.
+Starting the kvState service and its components.
+Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+Start job leader service.
+User file cache uses directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-dist-cache-a7772428-d3df-4dde-bab4-4f1b12dd91ef
+Starting rest endpoint.
+Failed to load web based job submission extension. Probable reason: flink-runtime-web is not in the classpath.
+Log file environment variable 'log.file' is not set.
+JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+Rest endpoint listening at localhost:5123
+Proposing leadership to contender http://localhost:5123
+http://localhost:5123 was granted leadership with leaderSessionID=a141c006-972e-4022-b874-a8a89d39f86b
+Received confirmation of leadership for leader http://localhost:5123 , session=a141c006-972e-4022-b874-a8a89d39f86b
+Starting RPC endpoint for org.apache.flink.runtime.resourcemanager.StandaloneResourceManager at akka://flink/user/rpc/resourcemanager_1 .
+Proposing leadership to contender LeaderContender: DefaultDispatcherRunner
+Starting the resource manager.
+Proposing leadership to contender LeaderContender: StandaloneResourceManager
+ResourceManager akka://flink/user/rpc/resourcemanager_1 was granted leadership with fencing token a198394f110534fc9c4499180208496b
+Flink Mini Cluster started successfully
+Start SessionDispatcherLeaderProcess.
+Recover all persisted job graphs.
+Successfully recovered 0 persisted job graphs.
+Received confirmation of leadership for leader akka://flink/user/rpc/resourcemanager_1 , session=9c449918-0208-496b-a198-394f110534fc
+Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_1(a198394f110534fc9c4499180208496b).
+Starting RPC endpoint for org.apache.flink.runtime.dispatcher.StandaloneDispatcher at akka://flink/user/rpc/dispatcher_2 .
+Received confirmation of leadership for leader akka://flink/user/rpc/dispatcher_2 , session=9151fa37-38a9-4235-b2cd-75cdbe9d0918
+Resolved ResourceManager address, beginning registration
+Registering TaskManager with ResourceID a47574d8-ca87-4e81-9ec6-a17a90175f44 (akka://flink/user/rpc/taskmanager_0) at ResourceManager
+Successful registration at resource manager akka://flink/user/rpc/resourcemanager_1 under registration id 7af0bef25340dd04343334597690c7c6.
+Received JobGraph submission d938a288594d826f281d355f335dce6a (flink).
+Submitting job d938a288594d826f281d355f335dce6a (flink).
+Proposing leadership to contender LeaderContender: JobMasterServiceLeadershipRunner
+Starting RPC endpoint for org.apache.flink.runtime.jobmaster.JobMaster at akka://flink/user/rpc/jobmanager_3 .
+Initializing job flink (d938a288594d826f281d355f335dce6a).
+Using restart back off time strategy NoRestartBackoffTimeStrategy for flink (d938a288594d826f281d355f335dce6a).
+Running initialization on master for job flink (d938a288594d826f281d355f335dce6a).
+Successfully ran initialization on master in 0 ms.
+Built 1 pipelined regions in 1 ms
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@50d03d20
+Checkpoint storage is set to 'jobmanager'
+No checkpoint found during restore.
+Using failover strategy org.apache.flink.runtime.executiongraph.failover.flip1.RestartPipelinedRegionFailoverStrategy@acce28b for flink (d938a288594d826f281d355f335dce6a).
+Received confirmation of leadership for leader akka://flink/user/rpc/jobmanager_3 , session=46ca99c8-8913-414e-a167-287471111e61
+Starting execution of job flink (d938a288594d826f281d355f335dce6a) under job master id a167287471111e6146ca99c88913414e.
+Starting scheduling with scheduling strategy [org.apache.flink.runtime.scheduler.strategy.PipelinedRegionSchedulingStrategy]
+Job flink (d938a288594d826f281d355f335dce6a) switched from state CREATED to RUNNING.
+Source: Custom File Source (1/1) (341207bd1453d921e524a86610a81b1b) switched from CREATED to SCHEDULED.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (080b4d5a2377ce11e2d1d78c7840b2eb) switched from CREATED to SCHEDULED.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (44eaf290abbb17965a465208c410fc37) switched from CREATED to SCHEDULED.
+Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_1(a198394f110534fc9c4499180208496b)
+Resolved ResourceManager address, beginning registration
+Registering job manager a167287471111e6146ca99c88913414e@akka://flink/user/rpc/jobmanager_3 for job d938a288594d826f281d355f335dce6a.
+Registered job manager a167287471111e6146ca99c88913414e@akka://flink/user/rpc/jobmanager_3 for job d938a288594d826f281d355f335dce6a.
+JobManager successfully registered at ResourceManager, leader id: a198394f110534fc9c4499180208496b.
+Received resource requirements from job d938a288594d826f281d355f335dce6a: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=2}]
+Receive slot request b9a9cb66ffabddd81ff301ca85c93150 for job d938a288594d826f281d355f335dce6a from resource manager with leader id a198394f110534fc9c4499180208496b.
+Allocated slot for b9a9cb66ffabddd81ff301ca85c93150.
+Add job d938a288594d826f281d355f335dce6a for job leader monitoring.
+Receive slot request 278a3249065659bef1743fdd08d8789f for job d938a288594d826f281d355f335dce6a from resource manager with leader id a198394f110534fc9c4499180208496b.
+Try to register at job manager akka://flink/user/rpc/jobmanager_3 with leader id 46ca99c8-8913-414e-a167-287471111e61.
+Allocated slot for 278a3249065659bef1743fdd08d8789f.
+Resolved JobManager address, beginning registration
+Successful registration at job manager akka://flink/user/rpc/jobmanager_3 for job d938a288594d826f281d355f335dce6a.
+Establish JobManager connection for job d938a288594d826f281d355f335dce6a.
+Offer reserved slots to the leader of job d938a288594d826f281d355f335dce6a.
+Source: Custom File Source (1/1) (341207bd1453d921e524a86610a81b1b) switched from SCHEDULED to DEPLOYING.
+Deploying Source: Custom File Source (1/1) (attempt #0) with attempt id 341207bd1453d921e524a86610a81b1b to a47574d8-ca87-4e81-9ec6-a17a90175f44 @ peer1 (dataPort=-1) with allocation id 278a3249065659bef1743fdd08d8789f
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (080b4d5a2377ce11e2d1d78c7840b2eb) switched from SCHEDULED to DEPLOYING.
+Deploying Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (attempt #0) with attempt id 080b4d5a2377ce11e2d1d78c7840b2eb to a47574d8-ca87-4e81-9ec6-a17a90175f44 @ peer1 (dataPort=-1) with allocation id 278a3249065659bef1743fdd08d8789f
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (44eaf290abbb17965a465208c410fc37) switched from SCHEDULED to DEPLOYING.
+Activate slot 278a3249065659bef1743fdd08d8789f.
+Deploying Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (attempt #0) with attempt id 44eaf290abbb17965a465208c410fc37 to a47574d8-ca87-4e81-9ec6-a17a90175f44 @ peer1 (dataPort=-1) with allocation id b9a9cb66ffabddd81ff301ca85c93150
+Received task Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b), deploy into slot with allocation id 278a3249065659bef1743fdd08d8789f.
+Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b) switched from CREATED to DEPLOYING.
+Activate slot 278a3249065659bef1743fdd08d8789f.
+Loading JAR files for task Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b) [DEPLOYING].
+Received task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb), deploy into slot with allocation id 278a3249065659bef1743fdd08d8789f.
+Activate slot b9a9cb66ffabddd81ff301ca85c93150.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb) switched from CREATED to DEPLOYING.
+Loading JAR files for task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb) [DEPLOYING].
+Received task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37), deploy into slot with allocation id b9a9cb66ffabddd81ff301ca85c93150.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37) switched from CREATED to DEPLOYING.
+Activate slot b9a9cb66ffabddd81ff301ca85c93150.
+Loading JAR files for task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37) [DEPLOYING].
+Activate slot 278a3249065659bef1743fdd08d8789f.
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@3528b282
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@4040ea92
+Checkpoint storage is set to 'jobmanager'
+Checkpoint storage is set to 'jobmanager'
+No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@513f3b6e
+Checkpoint storage is set to 'jobmanager'
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37) switched from DEPLOYING to INITIALIZING.
+Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b) switched from DEPLOYING to INITIALIZING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb) switched from DEPLOYING to INITIALIZING.
+Source: Custom File Source (1/1) (341207bd1453d921e524a86610a81b1b) switched from DEPLOYING to INITIALIZING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (080b4d5a2377ce11e2d1d78c7840b2eb) switched from DEPLOYING to INITIALIZING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (44eaf290abbb17965a465208c410fc37) switched from DEPLOYING to INITIALIZING.
+No state to restore for the ContinuousFileMonitoringFunction.
+No state to restore for the ContinuousFileReaderOperator (taskIdx=1).
+No state to restore for the ContinuousFileReaderOperator (taskIdx=0).
+Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b) switched from INITIALIZING to RUNNING.
+Source: Custom File Source (1/1) (341207bd1453d921e524a86610a81b1b) switched from INITIALIZING to RUNNING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb) switched from INITIALIZING to RUNNING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37) switched from INITIALIZING to RUNNING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (44eaf290abbb17965a465208c410fc37) switched from INITIALIZING to RUNNING.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (080b4d5a2377ce11e2d1d78c7840b2eb) switched from INITIALIZING to RUNNING.
+Forwarding split: [0] file:/F:/Desktop/random.txt mod@ 1636355810843 : 0 + 389987
+Forwarding split: [1] file:/F:/Desktop/random.txt mod@ 1636355810843 : 389987 + 389987
+Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b) switched from RUNNING to FINISHED.
+Freeing task resources for Source: Custom File Source (1/1)#0 (341207bd1453d921e524a86610a81b1b).
+Un-registering task and sending final execution state FINISHED to JobManager for task Source: Custom File Source (1/1)#0 341207bd1453d921e524a86610a81b1b.
+Source: Custom File Source (1/1) (341207bd1453d921e524a86610a81b1b) switched from RUNNING to FINISHED.
+not processing any records while closed
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37) switched from RUNNING to FINISHED.
+Freeing task resources for Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 (44eaf290abbb17965a465208c410fc37).
+Un-registering task and sending final execution state FINISHED to JobManager for task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2)#0 44eaf290abbb17965a465208c410fc37.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (2/2) (44eaf290abbb17965a465208c410fc37) switched from RUNNING to FINISHED.
+not processing any records while closed
+Received resource requirements from job d938a288594d826f281d355f335dce6a: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=1}]
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb) switched from RUNNING to FINISHED.
+Freeing task resources for Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 (080b4d5a2377ce11e2d1d78c7840b2eb).
+Un-registering task and sending final execution state FINISHED to JobManager for task Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2)#0 080b4d5a2377ce11e2d1d78c7840b2eb.
+Split Reader: Custom File Source -> Map -> Sink: Print to Std. Out (1/2) (080b4d5a2377ce11e2d1d78c7840b2eb) switched from RUNNING to FINISHED.
+Job flink (d938a288594d826f281d355f335dce6a) switched from state RUNNING to FINISHED.
+Clearing resource requirements of job d938a288594d826f281d355f335dce6a
+Stopping checkpoint coordinator for job d938a288594d826f281d355f335dce6a.
+Shutting down
+Shutting down Flink Mini Cluster
+Job d938a288594d826f281d355f335dce6a reached globally terminal state FINISHED.
+Stopping TaskExecutor akka://flink/user/rpc/taskmanager_0.
+Close ResourceManager connection 8345df8698cca1111f0d3580646099ce.
+Shutting down rest endpoint.
+Close JobManager connection for job d938a288594d826f281d355f335dce6a.
+Stopping the JobMaster for job flink(d938a288594d826f281d355f335dce6a).
+Closing TaskExecutor connection a47574d8-ca87-4e81-9ec6-a17a90175f44 because: The TaskExecutor is shutting down.
+Free slot TaskSlot(index:0, state:ALLOCATED, resource profile: ResourceProfile{taskHeapMemory=512.000gb (549755813888 bytes), taskOffHeapMemory=512.000gb (549755813888 bytes), managedMemory=64.000mb (67108864 bytes), networkMemory=32.000mb (33554432 bytes)}, allocationId: b9a9cb66ffabddd81ff301ca85c93150, jobId: d938a288594d826f281d355f335dce6a).
+Releasing slot [278a3249065659bef1743fdd08d8789f].
+Free slot TaskSlot(index:1, state:ALLOCATED, resource profile: ResourceProfile{taskHeapMemory=512.000gb (549755813888 bytes), taskOffHeapMemory=512.000gb (549755813888 bytes), managedMemory=64.000mb (67108864 bytes), networkMemory=32.000mb (33554432 bytes)}, allocationId: 278a3249065659bef1743fdd08d8789f, jobId: d938a288594d826f281d355f335dce6a).
+Releasing slot [b9a9cb66ffabddd81ff301ca85c93150].
+Clearing resource requirements of job d938a288594d826f281d355f335dce6a
+Close ResourceManager connection 8345df8698cca1111f0d3580646099ce: Stopping JobMaster for job flink(d938a288594d826f281d355f335dce6a)..
+Disconnect job manager a167287471111e6146ca99c88913414e@akka://flink/user/rpc/jobmanager_3 for job d938a288594d826f281d355f335dce6a from the resource manager.
+Removing cache directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-web-ui
+Stop job leader service.
+Shutting down TaskExecutorLocalStateStoresManager.
+Shut down complete.
+flink job run success
+Shut down cluster because application is in CANCELED, diagnostics DispatcherResourceManagerComponent has been closed..
+Closing components.
+Stopping SessionDispatcherLeaderProcess.
+Stopping dispatcher akka://flink/user/rpc/dispatcher_2.
+Stopping all currently running jobs of dispatcher akka://flink/user/rpc/dispatcher_2.
+Closing the slot manager.
+Suspending the slot manager.
+FileChannelManager removed spill file directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-io-a4901cbd-dd17-4fd1-88f1-2b14c5d1639e
+Shutting down the network environment and its components.
+Stopped dispatcher akka://flink/user/rpc/dispatcher_2.
+FileChannelManager removed spill file directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-netty-shuffle-42dd9f4b-80a3-4abe-8f32-a3f00dccedd7
+Shutting down the kvState service and its components.
+Stop job leader service.
+removed file cache directory C:\Users\MACHEN~1\AppData\Local\Temp\flink-dist-cache-a7772428-d3df-4dde-bab4-4f1b12dd91ef
+Stopped TaskExecutor akka://flink/user/rpc/taskmanager_0.
+Stopping Akka RPC service.
+Stopping Akka RPC service.
+Stopped Akka RPC service.
+Shutting down BLOB cache
+Shutting down BLOB cache
+Stopped BLOB server at 0.0.0.0:5071
+Stopped Akka RPC service.

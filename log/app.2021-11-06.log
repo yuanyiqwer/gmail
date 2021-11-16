@@ -1,0 +1,1215 @@
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 16008 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.21 seconds (JVM running for 2.887)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+s
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 5796 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.16 seconds (JVM running for 2.861)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+s
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 15932 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.26 seconds (JVM running for 2.974)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+Error initializing SparkContext.
+org.apache.spark.SparkException: A master URL must be set in your configuration
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:394)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2690)
+	at org.apache.spark.sql.SparkSession$Builder.$anonfun$getOrCreate$2(SparkSession.scala:949)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:943)
+	at com.yy.task.RunSparkTask.<init>(RunSparkTask.scala:21)
+	at com.yy.App.main(App.java:19)
+Successfully stopped SparkContext
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 1356 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.212 seconds (JVM running for 2.996)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 5126.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-9e3edb30-720e-4da9-aa28-a147d3926896
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5642ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5691ms
+Started ServerConnector@31ceba99{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@5d425813{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@11a8042c{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@69391e08{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6884f0d9{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@26b95b0b{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@103082dd{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@56afdf9a{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@77ec6a3d{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71d9cb05{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@41fe8e5f{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@51841ac6{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@435e60ff{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10afe71a{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@212dfd39{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 5146.
+Server created on DESKTOP-AGBUJPR:5146
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 5146, None)
+Registering block manager DESKTOP-AGBUJPR:5146 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 5146, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 5146, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 5146, None)
+Started o.s.j.s.ServletContextHandler@3cd9aa64{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@4c5228e7{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@806996{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@69d23296{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@376c7d7d{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@187e5235{/static/sql,null,AVAILABLE,@Spark}
+It took 160 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.5 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:5146 (size: 32.5 KiB, free: 3.0 GiB)
+Created broadcast 0 from load at RunSparkTask.scala:40
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: load at RunSparkTask.scala:40
+Got job 0 (load at RunSparkTask.scala:40) with 1 output partitions
+Final stage: ResultStage 0 (load at RunSparkTask.scala:40)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at load at RunSparkTask.scala:40), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:5146 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at load at RunSparkTask.scala:40) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Exception in task 0.0 in stage 0.0 (TID 0)
+java.lang.NoClassDefFoundError: org/codehaus/janino/InternalCompilerException
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.org$apache$spark$sql$catalyst$expressions$codegen$CodeGenerator$$doCompile(CodeGenerator.scala:1490)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1586)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1583)
+	at org.sparkproject.guava.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3599)
+	at org.sparkproject.guava.cache.LocalCache$Segment.loadSync(LocalCache.java:2379)
+	at org.sparkproject.guava.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2342)
+	at org.sparkproject.guava.cache.LocalCache$Segment.get(LocalCache.java:2257)
+	at org.sparkproject.guava.cache.LocalCache.get(LocalCache.java:4000)
+	at org.sparkproject.guava.cache.LocalCache.getOrLoad(LocalCache.java:4004)
+	at org.sparkproject.guava.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4874)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.compile(CodeGenerator.scala:1436)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:378)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:331)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:34)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1362)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1359)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns$lzycompute(FileFormat.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns(FileFormat.scala:137)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:142)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:133)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:116)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:164)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:93)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator.isEmpty(Iterator.scala:385)
+	at scala.collection.Iterator.isEmpty$(Iterator.scala:385)
+	at scala.collection.AbstractIterator.isEmpty(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceLeftOption(TraversableOnce.scala:208)
+	at scala.collection.TraversableOnce.reduceLeftOption$(TraversableOnce.scala:207)
+	at scala.collection.AbstractIterator.reduceLeftOption(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceOption(TraversableOnce.scala:215)
+	at scala.collection.TraversableOnce.reduceOption$(TraversableOnce.scala:215)
+	at scala.collection.AbstractIterator.reduceOption(Iterator.scala:1429)
+	at org.apache.spark.sql.catalyst.json.JsonInferSchema.$anonfun$infer$1(JsonInferSchema.scala:80)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2(RDD.scala:863)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2$adapted(RDD.scala:863)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:506)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1462)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:509)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.janino.InternalCompilerException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 48 common frames omitted
+Lost task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR executor driver): java.lang.NoClassDefFoundError: org/codehaus/janino/InternalCompilerException
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.org$apache$spark$sql$catalyst$expressions$codegen$CodeGenerator$$doCompile(CodeGenerator.scala:1490)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1586)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1583)
+	at org.sparkproject.guava.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3599)
+	at org.sparkproject.guava.cache.LocalCache$Segment.loadSync(LocalCache.java:2379)
+	at org.sparkproject.guava.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2342)
+	at org.sparkproject.guava.cache.LocalCache$Segment.get(LocalCache.java:2257)
+	at org.sparkproject.guava.cache.LocalCache.get(LocalCache.java:4000)
+	at org.sparkproject.guava.cache.LocalCache.getOrLoad(LocalCache.java:4004)
+	at org.sparkproject.guava.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4874)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.compile(CodeGenerator.scala:1436)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:378)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:331)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:34)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1362)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1359)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns$lzycompute(FileFormat.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns(FileFormat.scala:137)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:142)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:133)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:116)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:164)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:93)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator.isEmpty(Iterator.scala:385)
+	at scala.collection.Iterator.isEmpty$(Iterator.scala:385)
+	at scala.collection.AbstractIterator.isEmpty(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceLeftOption(TraversableOnce.scala:208)
+	at scala.collection.TraversableOnce.reduceLeftOption$(TraversableOnce.scala:207)
+	at scala.collection.AbstractIterator.reduceLeftOption(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceOption(TraversableOnce.scala:215)
+	at scala.collection.TraversableOnce.reduceOption$(TraversableOnce.scala:215)
+	at scala.collection.AbstractIterator.reduceOption(Iterator.scala:1429)
+	at org.apache.spark.sql.catalyst.json.JsonInferSchema.$anonfun$infer$1(JsonInferSchema.scala:80)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2(RDD.scala:863)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2$adapted(RDD.scala:863)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:506)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1462)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:509)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.janino.InternalCompilerException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 48 more
+
+Task 0 in stage 0.0 failed 1 times; aborting job
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+Cancelling stage 0
+Killing all running tasks in stage 0: Stage cancelled
+ResultStage 0 (load at RunSparkTask.scala:40) failed in 0.667 s due to Job aborted due to stage failure: Task 0 in stage 0.0 failed 1 times, most recent failure: Lost task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR executor driver): java.lang.NoClassDefFoundError: org/codehaus/janino/InternalCompilerException
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.org$apache$spark$sql$catalyst$expressions$codegen$CodeGenerator$$doCompile(CodeGenerator.scala:1490)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1586)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$$anon$1.load(CodeGenerator.scala:1583)
+	at org.sparkproject.guava.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3599)
+	at org.sparkproject.guava.cache.LocalCache$Segment.loadSync(LocalCache.java:2379)
+	at org.sparkproject.guava.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2342)
+	at org.sparkproject.guava.cache.LocalCache$Segment.get(LocalCache.java:2257)
+	at org.sparkproject.guava.cache.LocalCache.get(LocalCache.java:4000)
+	at org.sparkproject.guava.cache.LocalCache.getOrLoad(LocalCache.java:4004)
+	at org.sparkproject.guava.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4874)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator$.compile(CodeGenerator.scala:1436)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:378)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:331)
+	at org.apache.spark.sql.catalyst.expressions.codegen.GenerateUnsafeProjection$.create(GenerateUnsafeProjection.scala:34)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1362)
+	at org.apache.spark.sql.catalyst.expressions.codegen.CodeGenerator.generate(CodeGenerator.scala:1359)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns$lzycompute(FileFormat.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.appendPartitionColumns(FileFormat.scala:137)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:142)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:133)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:116)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:164)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:93)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator.isEmpty(Iterator.scala:385)
+	at scala.collection.Iterator.isEmpty$(Iterator.scala:385)
+	at scala.collection.AbstractIterator.isEmpty(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceLeftOption(TraversableOnce.scala:208)
+	at scala.collection.TraversableOnce.reduceLeftOption$(TraversableOnce.scala:207)
+	at scala.collection.AbstractIterator.reduceLeftOption(Iterator.scala:1429)
+	at scala.collection.TraversableOnce.reduceOption(TraversableOnce.scala:215)
+	at scala.collection.TraversableOnce.reduceOption$(TraversableOnce.scala:215)
+	at scala.collection.AbstractIterator.reduceOption(Iterator.scala:1429)
+	at org.apache.spark.sql.catalyst.json.JsonInferSchema.$anonfun$infer$1(JsonInferSchema.scala:80)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2(RDD.scala:863)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitions$2$adapted(RDD.scala:863)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:506)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1462)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:509)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.janino.InternalCompilerException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 48 more
+
+Driver stacktrace:
+Job 0 failed: load at RunSparkTask.scala:40, took 0.696851 s
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 16752 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.258 seconds (JVM running for 2.904)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 12065.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-23846310-5152-41b5-ad55-aa1a72b1683f
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5735ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5781ms
+Started ServerConnector@53830483{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@63b3ee82{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f172d4a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73fb1d7f{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25d2f66{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71945bc0{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ede9c7{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3dd4a6fa{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f725306{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2412a42b{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4715ae33{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1fac1d5c{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2a2ef072{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f00f851{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 12087.
+Server created on DESKTOP-AGBUJPR:12087
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 12087, None)
+Registering block manager DESKTOP-AGBUJPR:12087 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 12087, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 12087, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 12087, None)
+Started o.s.j.s.ServletContextHandler@1305c126{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@76332405{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@d1d8e1a{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@43a65cd8{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17461db{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5b3bb1f7{/static/sql,null,AVAILABLE,@Spark}
+It took 162 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.5 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:12087 (size: 32.5 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:12087 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 133.4694 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 487 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.584 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.616618 s
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<_corrupt_record: string>
+Block broadcast_2 stored as values in memory (estimated size 337.4 KiB, free 3.0 GiB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_2_piece0 in memory on DESKTOP-AGBUJPR:12087 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 2 from show at RunSparkTask.scala:43
+spark init...
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 16656 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.243 seconds (JVM running for 2.9)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 8542.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-03d1ae16-bb3d-4ba9-9801-2363fb1be621
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5572ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5619ms
+Started ServerConnector@53830483{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@63b3ee82{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f172d4a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73fb1d7f{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25d2f66{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71945bc0{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ede9c7{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3dd4a6fa{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f725306{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2412a42b{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4715ae33{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1fac1d5c{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2a2ef072{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f00f851{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 8561.
+Server created on DESKTOP-AGBUJPR:8561
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 8561, None)
+Registering block manager DESKTOP-AGBUJPR:8561 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 8561, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 8561, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 8561, None)
+Started o.s.j.s.ServletContextHandler@1305c126{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@d1d8e1a{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3b48e183{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17461db{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4e682398{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f1a4795{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 154 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:8561 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:8561 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 136.9131 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 502 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.602 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.633882 s
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<_corrupt_record: string>
+Block broadcast_2 stored as values in memory (estimated size 337.4 KiB, free 3.0 GiB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_2_piece0 in memory on DESKTOP-AGBUJPR:8561 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 2 from show at RunSparkTask.scala:43
+spark run result=>tfalse
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 15556 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.246 seconds (JVM running for 2.923)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 11409.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-b191f473-353c-4fc4-a0bc-1342d4086449
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5549ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5595ms
+Started ServerConnector@53830483{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@63b3ee82{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f172d4a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73fb1d7f{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25d2f66{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71945bc0{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ede9c7{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3dd4a6fa{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f725306{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2412a42b{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4715ae33{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1fac1d5c{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2a2ef072{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f00f851{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 11433.
+Server created on DESKTOP-AGBUJPR:11433
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 11433, None)
+Registering block manager DESKTOP-AGBUJPR:11433 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 11433, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 11433, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 11433, None)
+Started o.s.j.s.ServletContextHandler@1305c126{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@d1d8e1a{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3b48e183{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17461db{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4e682398{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f1a4795{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 171 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.5 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:11433 (size: 32.5 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:11433 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 143.0474 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 506 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.602 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.630275 s
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<_corrupt_record: string>
+Block broadcast_2 stored as values in memory (estimated size 337.4 KiB, free 3.0 GiB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_2_piece0 in memory on DESKTOP-AGBUJPR:11433 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 2 from show at RunSparkTask.scala:43
+spark run result=>tfalse
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 4364 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.156 seconds (JVM running for 2.87)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 11707.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-df278cab-27f5-48d0-b63c-ad16e3bf9ea7
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5532ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5575ms
+Started ServerConnector@688d411b{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@5aaaa446{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@636bbbbb{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10dc7d6{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7e744f43{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a4ccef7{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@35eb4a3b{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6884f0d9{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@103082dd{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@56afdf9a{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@70cccd8f{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@77ec6a3d{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71d9cb05{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@41fe8e5f{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@45404d5{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5cbe2654{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5ba26eb0{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17d32e9b{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 11729.
+Server created on DESKTOP-AGBUJPR:11729
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 11729, None)
+Registering block manager DESKTOP-AGBUJPR:11729 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 11729, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 11729, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 11729, None)
+Started o.s.j.s.ServletContextHandler@37df14d1{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@7f6874f2{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@697a34af{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78b612c6{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@22752544{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3fba233d{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 163 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:11729 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:11729 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 141.0008 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 516 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.617 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.648699 s
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<_corrupt_record: string>
+Block broadcast_2 stored as values in memory (estimated size 337.4 KiB, free 3.0 GiB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_2_piece0 in memory on DESKTOP-AGBUJPR:11729 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 2 from show at RunSparkTask.scala:43
+spark run result=>tfalse
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 17200 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.198 seconds (JVM running for 2.876)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 14885.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-cb190865-ad72-431a-87b2-8711b3ad3909
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5536ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5580ms
+Started ServerConnector@53830483{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@63b3ee82{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f172d4a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73fb1d7f{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25d2f66{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71945bc0{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ede9c7{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3dd4a6fa{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f725306{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2412a42b{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4715ae33{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1fac1d5c{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2a2ef072{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f00f851{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 14924.
+Server created on DESKTOP-AGBUJPR:14924
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 14924, None)
+Registering block manager DESKTOP-AGBUJPR:14924 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 14924, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 14924, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 14924, None)
+Started o.s.j.s.ServletContextHandler@1305c126{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@d1d8e1a{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3b48e183{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17461db{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4e682398{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f1a4795{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 154 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:14924 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:14924 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 136.0719 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 510 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.607 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.635414 s
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<_corrupt_record: string>
+Block broadcast_2 stored as values in memory (estimated size 337.4 KiB, free 3.0 GiB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_2_piece0 in memory on DESKTOP-AGBUJPR:14924 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 2 from show at RunSparkTask.scala:43
+error message=>	
+Since Spark 2.3, the queries from raw JSON/CSV files are disallowed when the
+referenced columns only include the internal corrupt record column
+(named _corrupt_record by default). For example:
+spark.read.schema(schema).csv(file).filter($"_corrupt_record".isNotNull).count()
+and spark.read.schema(schema).csv(file).select("_corrupt_record").show().
+Instead, you can cache or save the parsed results and then send the same query.
+For example, val df = spark.read.schema(schema).csv(file).cache() and then
+df.filter($"_corrupt_record".isNotNull).count().
+      
+spark run result=>tfalse
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 15912 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.225 seconds (JVM running for 2.861)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 4881.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-310b3e24-9e3a-44a3-9d91-79d0c3e80f16
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5555ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5604ms
+Started ServerConnector@295bf2a{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@1702830d{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a4ccef7{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@35eb4a3b{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ec6a9f{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f7da3d3{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3a22bad6{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@64fe9da7{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17c2d509{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1a0b5323{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@245ec1a6{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@38792286{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@665522c2{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3062f9f4{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6f1a80fb{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7d2998d8{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@51a6cc2a{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2123064f{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@28cb3a25{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6cfd9a54{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@9aa2002{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5ba26eb0{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17d32e9b{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@741f8dbe{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@a2ddf26{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 4903.
+Server created on DESKTOP-AGBUJPR:4903
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 4903, None)
+Registering block manager DESKTOP-AGBUJPR:4903 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 4903, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 4903, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 4903, None)
+Started o.s.j.s.ServletContextHandler@42b84286{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@78b612c6{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@22752544{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4784efd9{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@427ae189{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3b48e183{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 144 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:4903 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:4903 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 132.6119 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 485 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.585 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.614821 s
+spark run result=>ttrue
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 1544 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.184 seconds (JVM running for 2.869)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 5284.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-ff61e642-b358-44c1-abe6-a466813c66e9
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5579ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5624ms
+Started ServerConnector@53830483{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@63b3ee82{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5f172d4a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@36bf84e{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25b52284{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@782be4eb{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@34d4860f{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2016f509{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a237731{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6a0094c9{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@10fda3d0{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4f6b687e{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5555ffcf{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@78c1372d{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73fb1d7f{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@25d2f66{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@71945bc0{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49ede9c7{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3dd4a6fa{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f725306{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2412a42b{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4715ae33{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1fac1d5c{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2a2ef072{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f00f851{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 5303.
+Server created on DESKTOP-AGBUJPR:5303
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 5303, None)
+Registering block manager DESKTOP-AGBUJPR:5303 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 5303, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 5303, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 5303, None)
+Started o.s.j.s.ServletContextHandler@1305c126{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@d1d8e1a{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3b48e183{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17461db{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4e682398{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f1a4795{/static/sql,null,AVAILABLE,@Spark}
+Using an existing SparkSession; some spark core configurations may not take effect.
+It took 145 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:5303 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:5303 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 132.0228 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 486 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.587 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.616416 s
+spark run result=>	true
+Starting App using Java 1.8.0_151 on DESKTOP-AGBUJPR with PID 5368 (D:\IdeaProject\gmail\spark_gmail\target\classes started by Machenike in D:\IdeaProject\gmail)
+No active profile set, falling back to default profiles: default
+Started App in 1.215 seconds (JVM running for 2.905)
+Application availability state LivenessState changed to CORRECT
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Running Spark version 3.2.0
+==============================================================
+No custom resources configured for spark.driver.
+==============================================================
+Submitted application: sql
+Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+Limiting resource is cpu
+Added ResourceProfile id: 0
+Changing view acls to: Machenike,atguigu
+Changing modify acls to: Machenike,atguigu
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Machenike, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(Machenike, atguigu); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 10383.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Registering BlockManagerMasterHeartbeat
+Created local directory at C:\Users\Machenike\AppData\Local\Temp\blockmgr-b4d533f9-33be-4ef4-944d-403e02f3ee1a
+MemoryStore started with capacity 3.0 GiB
+Registering OutputCommitCoordinator
+Logging initialized @5629ms to org.sparkproject.jetty.util.log.Slf4jLog
+jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 1.8.0_151-b12
+Started @5674ms
+Started ServerConnector@4487c0c2{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+Successfully started service 'SparkUI' on port 4040.
+Started o.s.j.s.ServletContextHandler@3f4f5330{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@56afdf9a{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@70cccd8f{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@67efd2c2{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@17c2d509{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@1a0b5323{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@245ec1a6{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@665522c2{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3062f9f4{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6f1a80fb{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7d2998d8{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@51a6cc2a{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2123064f{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@28cb3a25{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6cfd9a54{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@9aa2002{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@73d4066e{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5a2fa51f{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@22a0d4ea{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6ecdbab8{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@19f7222e{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@65d57e4e{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@23a5818e{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7a8406c2{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@6850b758{/stages/stage/kill,null,AVAILABLE,@Spark}
+Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-AGBUJPR:4040
+Starting executor ID driver on host DESKTOP-AGBUJPR
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 10422.
+Server created on DESKTOP-AGBUJPR:10422
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 10422, None)
+Registering block manager DESKTOP-AGBUJPR:10422 with 3.0 GiB RAM, BlockManagerId(driver, DESKTOP-AGBUJPR, 10422, None)
+Registered BlockManager BlockManagerId(driver, DESKTOP-AGBUJPR, 10422, None)
+Initialized BlockManager: BlockManagerId(driver, DESKTOP-AGBUJPR, 10422, None)
+Started o.s.j.s.ServletContextHandler@97d0c06{/metrics/json,null,AVAILABLE,@Spark}
+Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+Warehouse path is 'file:/D:/IdeaProject/gmail/spark-warehouse'.
+Started o.s.j.s.ServletContextHandler@ecdbb42{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@d16b4fc{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2ec0fe03{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@75de22f7{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@525d5f95{/static/sql,null,AVAILABLE,@Spark}
+It took 165 ms to list leaf files for 1 paths.
+It took 1 ms to list leaf files for 1 paths.
+Pushed Filters: 
+Post-Scan Filters: 
+Output Data Schema: struct<value: string>
+Block broadcast_0 stored as values in memory (estimated size 337.5 KiB, free 3.0 GiB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.4 KiB, free 3.0 GiB)
+Added broadcast_0_piece0 in memory on DESKTOP-AGBUJPR:10422 (size: 32.4 KiB, free: 3.0 GiB)
+Created broadcast 0 from json at RunSparkTask.scala:39
+Planning scan with bin packing, max size: 4196379 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: json at RunSparkTask.scala:39
+Got job 0 (json at RunSparkTask.scala:39) with 1 output partitions
+Final stage: ResultStage 0 (json at RunSparkTask.scala:39)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39), which has no missing parents
+Block broadcast_1 stored as values in memory (estimated size 12.3 KiB, free 3.0 GiB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 3.0 GiB)
+Added broadcast_1_piece0 in memory on DESKTOP-AGBUJPR:10422 (size: 6.4 KiB, free: 3.0 GiB)
+Created broadcast 1 from broadcast at DAGScheduler.scala:1427
+Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at json at RunSparkTask.scala:39) (first 15 tasks are for partitions Vector(0))
+Adding task set 0.0 with 1 tasks resource profile 0
+Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-AGBUJPR, executor driver, partition 0, PROCESS_LOCAL, 4913 bytes) taskResourceAssignments Map()
+Running task 0.0 in stage 0.0 (TID 0)
+Reading File path: file:///F:/Desktop/sparkdata/world-area-master/world-area-master/children/json/area.json, range: 0-2075, partition values: [empty row]
+Code generated in 136.7684 ms
+Finished task 0.0 in stage 0.0 (TID 0). 1952 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0) in 497 ms on DESKTOP-AGBUJPR (executor driver) (1/1)
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+ResultStage 0 (json at RunSparkTask.scala:39) finished in 0.594 s
+Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+Killing all running tasks in stage 0: Stage finished
+Job 0 finished: json at RunSparkTask.scala:39, took 0.622363 s
